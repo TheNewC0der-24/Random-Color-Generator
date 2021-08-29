@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap');
+
+/* color: #1b2b1b;
+color: #efefef; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Hina', sans-serif;
+    color: #1b2b1b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    font-size: 1.5rem;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.container{
+    background-color: #efefef;
+    padding: 1rem 0;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 3px 4px rgba(50, 50, 50, 0.2);
+    position: relative;
+}
+
+.alert{
+    position: absolute;
+    top: -70px;
+    left: 10%;
+    background-color: black;
+    color: #efefef;
+    padding: 8px 12px;
+    border-radius: 4px;
+    box-shadow: 0 3px 4px rgba(50, 50, 50, 0.2);
+}
+
+.alert::after{
+    border-color: black transparent transparent transparent;
+    border-style: solid;
+    border-width: 15px 15px 0 8px;
+    bottom: 1px;
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 40%;
+    transform: translateX(-100%);
+}
+
+h1{
+    line-height: 1.5;
+}
+
+#currentColor{
+    text-align: center;
+    font-size: 30px;
+    line-height: 3;
+}
+
+#pickColor{
+    border: 0;
+    outline: 0;
+    background-color: #fff;
+    font-family: 'Hina', sans-serif;
+    font-size: 1.25rem;
+    padding: 8px 16px;
+    box-shadow: 0 3px 10px rgba(50, 50, 50, 0.2);
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+#copyBtn{
+    border: 0;
+    font-family: 'Hina', sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-left: 0.5rem;
+}
+
+#pickColor:active{
+    box-shadow: none;
+}
