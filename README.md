@@ -1,4 +1,5 @@
-<h1 align="center">Random Color Generator</h1>
+<h1 align="center" font-size="50px">🎨 Random Color Generator</h1>
+<br>
 
 ## About
 I have created this application using HTML, CSS and JavaScript. Use this for your next Project.
