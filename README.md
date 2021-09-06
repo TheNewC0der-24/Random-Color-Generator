@@ -2,7 +2,7 @@
 <br>
 
 ## About
-I have created this application using HTML, CSS and JavaScript. Use this for your next Project.
+I have created this application using HTML, CSS and JavaScript.
 
 ## Features
 You can see one button i.e., "Get New Color" everytime on clicking it you can see the background color changes randomly with a #color code. Also you can copy the #color code 
